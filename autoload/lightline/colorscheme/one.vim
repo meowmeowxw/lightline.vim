@@ -35,7 +35,7 @@ else
   let s:gray2 = [ '#2c323d', 235 ]
   let s:gray3 = [ '#3e4452', 240 ]
 
-  let s:p.inactive.left   = [ [ s:gray1,  s:bg ], [ s:gray1, s:bg ] ]
+  let s:p.inactive.left   = [ [ s:green,  s:bg ], [ s:gray1, s:bg ] ]
   let s:p.inactive.middle = [ [ s:gray1, s:gray2 ] ]
   let s:p.inactive.right  = [ [ s:gray1, s:bg ] ]
 endif
